@@ -1,0 +1,30 @@
+# 文本文件：仓库内统一存 LF，检出时按平台自动转换（Windows 上为 CRLF）
+* text=auto
+
+# 二进制资源：禁用换行转换，不做 diff
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.ico binary
+*.mp3 binary
+*.mp4 binary
+*.ttf binary
+*.pdf binary
+
+# Qt Creator 工程私有文件（含本机绝对路径，不应入库）
+*.pro.user binary
+*.user binary
+
+# 编译产物
+*.exe binary
+*.dll binary
+*.lib binary
+*.a binary
+*.so binary
+*.o binary
+*.obj binary
+*.pdb binary
+*.res binary
+*.mo binary
